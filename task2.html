@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Преобразование типов в JavaScript. Задание #2</title>
+  </head>
+  <body>
+    <h1>Преобразование типов в JavaScript</h1>
+    <h2>Задание 2.</h2>
+    <p>В JavaScript существует 2 вида преобразований типов: явное и неявное.</p>
+    <p>
+      Пример: <br />
+      console.log(Number('18')); // явное <br />
+      console.log(+'18'); // неявное
+    </p>
+    <p>
+      Для начала создайте новые файлы: task-2.html и task-2.js. Не забудьте
+      подключить task-2.js в task-2.html
+    </p>
+    <p>
+      Задача состоит в следующем: ниже вам даны 10 примеров явного и неявного
+      преобразования типов. Необходимо определить, какое преобразование явное, а
+      какое неявное.
+    </p>
+    <p>
+      Если преобразование является явным, то напишите напротив примера
+      комментарий: “явное”, если неявным, то исправьте его на явное по шаблону
+      ниже.
+    </p>
+    <p>
+      Шаблон ответа на пример console.log(+'1'): <br />
+      console.log(+'1'); // неявное <br />
+      console.log(Number('1'));
+    </p>
+    <p>Также для каждого значения (явного и неявного) выведите его typeof.</p>
+    <p>
+      Пример: console.log(Number('10'), typeof Number('10')); // явное <br />
+      //1 <br />
+      console.log(+'50'); <br />
+      //2 <br />
+      console.log(Number('100')); <br />
+      //3 <br />
+      console.log('' + 1); <br />
+      //4 <br />
+      console.log(String(1)); <br />
+      //5 <br />
+      console.log(Boolean(0)); <br />
+      //6 <br />
+      console.log(+'001'); <br />
+      //7 <br />
+      console.log(1 + ''); <br />
+      //8 <br />
+      console.log(Boolean(1)); <br />
+      //9 <br />
+      console.log(String(001)); <br />
+      //10 <br />
+      console.log(Number('Hello World'));
+    </p>
+    <a href="index.html">На главную страницу</a>
+    <script src="task2.js"></script>
+  </body>
+</html>
